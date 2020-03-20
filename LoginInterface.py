@@ -33,7 +33,7 @@ class App():
         b3.grid(column=4, row=4)
         self.var = IntVar()
         self.var.set(0)
-        c = Checkbutton(self.tk, variable=self.var, text="Accept privacy thermmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmms")
+        c = Checkbutton(self.tk, variable=self.var, text="Accept privacy privacy therms")
         c.grid(row=3)
     def ok(self):   
         a = filedialog.askopenfilename(filetypes = [("sqlite3 database (*.db)", ("*.db"))])
