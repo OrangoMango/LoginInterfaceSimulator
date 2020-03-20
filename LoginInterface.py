@@ -23,7 +23,7 @@ class App():
                self.items[1][1]["show"] = ""
             else:
                self.items[1][1]["show"] = "*"
-        sb = Checkbutton(self.tk, text="Mostra", command=sh)
+        sb = Checkbutton(self.tk, text="Show password", command=sh)
         sb.grid(column=2, row=1)
         b = Button(self.tk, text="OK", command=self.ok)
         b.grid(column=2, row=4, sticky="e")
